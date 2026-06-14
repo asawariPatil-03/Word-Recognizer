@@ -23,7 +23,7 @@ def get_pronunciation_audio(word: str) -> bytes:
 # Configure Page
 st.set_page_config(
     page_title="Alle - Word Recognizer & Coach",
-    page_icon="🎙️",
+    page_icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAABHElEQVR4AVyQvS4HURDFz7meQIdEoyNRKJQSNYVCpaGhE5VGNNuKUqL2Ah5C4QEU/KPxVQgPYcfvzl1s3MyZjzNz5+zeYnHSSUPQ/zPmSzaj+kZHxFZEP4mIh+hjo3b+YJWc1eiELiVvw+9IuhC65DVICjWFXJ606M/RuC/2naQF0GxotwuNap6GzXir8KHcR1atZBE1NYI1sp8fyCyb1Fk096sQ8fXZR8xAv4Fl8hXiM3dnwQc55uGn26ZbSbvoH7HzGtErJA/h9sENSGsKdKlOQcfQKnENbHJ5ncvHIZ2QQ41eyZ6aILQka17yq6RHMC15sdhPymMVhliiPLZfwB7EGcQ5j3Vgl3fywUYKA5OBoa7YXRY/ju+q6TcAAAD//y45iPYAAAAGSURBVAMARxhUHoZMXBEAAAAASUVORK5CYII=",
     layout="centered",
     initial_sidebar_state="expanded"
 )
